@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+	maximum-scale=1.0, user-scalable=no" />
+	<title>Website</title>
+	<link rel="shortcut icon" type="image/png" href="image/logo.png"/>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+</head>
+<body>
+	
+	<section id="header">
+		<div class="nav">
+			<img src="image/logo.png" alt="">
+			<nav class="navbar" id="navlink">
+				<i class="fa fa-times" onclick="closeMenu()"></i>
+				<ul>
+					<li><a href="#header">HOME</a></li>
+					<li><a href="#courses">COURSES</a></li>
+					<li><a href="#client">CLIENTS</a></li>
+					<li><a href="#about">ABOUT US</a></li>
+					<li><a href="#contact">CONTACT US</a></li>
+				</ul>
+			</nav>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</div>
+
+		<div class="header-text">
+			<div data-aos="zoom-in">
+				<h1>we help your business</h1>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus mollitia accusantium repellat vel atque inventore assumenda fuga, quae, repudiandae tempore!</p>
+				<a href="#" class="btn">contact us</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- our courses -->
+	<section id="courses"  data-aos="fade-right">
+		<h1>Our Courses</h1>
+		<div class="coruse-content">
+			<div class="course-item">
+				<img src="image/icon-1.png" alt="">
+				<h3>Web Design</h3>
+				<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorum cupiditate</p>
+			</div>
+
+			<div class="course-item">
+				<img src="image/icon-2.png" alt="">
+				<h3>Web Development</h3>
+				<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorum cupiditate</p>
+			</div>
+
+			<div class="course-item">
+				<img src="image/icon-3.png" alt="">
+				<h3>Graphic Design</h3>
+				<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorum cupiditate</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- our client section -->
+	<section id="client" data-aos="flip-right">
+		<h1>Our client</h1>
+		<div class="all-box">
+			<div class="box">
+				<div class="img-box">
+					<img src="image/client-1.jpg" alt="">
+					<div class="details">
+						<div class="cont">
+							<h2>Lorem ipsum dolor sit, amet.</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, pariatur?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="img-box">
+					<img src="image/client-2.jpg" alt="">
+					<div class="details">
+						<div class="cont">
+							<h2>Lorem ipsum dolor sit, amet.</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, pariatur?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="img-box">
+					<img src="image/client-3.jpg" alt="">
+					<div class="details">
+						<div class="cont">
+							<h2>Lorem ipsum dolor sit, amet.</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, pariatur?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- client end -->
+
+
+	<!-- about us section Start -->
+	<section id="about" data-aos="slide-left">
+		<h1>About us</h1>
+		<div class="about-content">
+			<div class="about-left">
+				<img src="image/about.jpg" alt="">
+			</div>
+			<div class="about-right">
+				<h2>About <span class="us">Us</span></h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus dolorem esse sapiente obcaecati, officiis delectus culpa? Tenetur in, debitis quasi tempore minima impedit nulla quia molestiae ducimus corrupti, ab.</p>
+			</div>
+		</div>
+	</section>
+	<!-- about us section End -->
+
+	<!-- Contact section start -->
+	<section id="contact" data-aos="flip-up">
+		<h1>Contact us</h1>
+		<div class="contact-content">
+			<div class="contact-left">
+				<h2>For contact us</h2>
+				<form action="">
+					<input type="text" placeholder="Enter Name"><br>
+					<input type="email" placeholder="Enter email"><br>
+					<input type="number" placeholder="Enter Number"><br>
+					<textarea name=""></textarea><br>
+					<a href="#" class="btn">contact us</a>
+				</form>
+			</div>
+			<div class="contact-right">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58690.11914369902!2d89.17890258260839!3d23.16536564159724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff1042d5486b03%3A0x7ee41b7ffaa9f629!2sR%20N%20Rd%2C%20Jessore!5e0!3m2!1sen!2sbd!4v1631278359175!5m2!1sen!2sbd"  style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+	</section>
+	<!-- Contact section end -->
+
+
+	<!-- footer start -->
+	<section id="footer">
+		<div class="container">
+			<div class="footer-left">
+				<div class="left-cont">
+					<h2>Your Logo</h2>
+					<p>Your tag line</p>
+				</div>
+				<div class="left-cont">
+					<h2>About Us</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, consequuntur!</p>
+				</div>
+				<div class="left-cont">
+					<h3>Contact Us</h3>
+					<p><i class="fa fa-phone"></i> +88 01952982150</p>
+					<p><i class="fa fa-envelope"></i> arman@gmail.com</p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<div class="all-right">
+					<div class="right-cont">
+						<h4>Quick Link</h4>
+						<ul>
+							<li><a href="#header">HOME</a></li>
+							<li><a href="#courses">COURSES</a></li>
+							<li><a href="#client">CLIENTS</a></li>
+							<li><a href="#about">ABOUT US</a></li>
+							<li><a href="#contact">CONTACT US</a></li>
+						</ul>
+					</div>
+					<div class="right-cont">
+						<h4>Helpful Link</h4>
+						<ul>
+							<li><a href="#header">HOME</a></li>
+							<li><a href="#courses">COURSES</a></li>
+							<li><a href="#client">CLIENTS</a></li>
+							<li><a href="#about">ABOUT US</a></li>
+							<li><a href="#contact">CONTACT US</a></li>
+						</ul>
+					</div>
+					<div class="right-cont">
+						<h4>Subscibe For More Info</h4>
+						<form action="">
+							<i class="fa fa-envelope input-icon"></i>
+							<input type="text" placeholder="         Enter your email"><br>
+							<button class="sub-btn">Subscibe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="social-icon">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-youtube"></i>
+			<i class="fa fa-instagram"></i>
+		</div>
+	</section>
+	<!-- footer End -->
+
+
+
+
+
+	<script>
+		
+		var navlink = document.getElementById('navlink');
+
+		function showMenu(){
+			navlink.style.right = '0';
+		}
+
+		function closeMenu(){
+			navlink.style.right = '-200px';
+		}
+
+		var scroll = new SmoothScroll('a[href*="#"]', {
+			speed: 800,
+			speedAsDuration: true
+		});
+
+		AOS.init({
+			offset: 120,
+			duration: 1000
+		});
+	</script>
+
+	 
+
+
+</body>
+</html>
